@@ -5,10 +5,10 @@ const axios = require('axios');
 const mysql = require('mysql2');
 
 const pool = mysql.createPool({
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
-    database: 'Doctor_Appointment'
+    host: '10.211.55.20',
+    user: 'mysuer',
+    password: 'password',
+    database: 'doctor_dppointment'
 });
 
 app.use(express.json());
