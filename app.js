@@ -6,9 +6,9 @@ const mysql = require('mysql2');
 
 const pool = mysql.createPool({
     host: '10.211.55.20',
-    user: 'mysuer',
+    user: 'myuser',
     password: 'password',
-    database: 'doctor_dppointment'
+    database: 'doctor_appointment'
 });
 
 app.use(express.json());
